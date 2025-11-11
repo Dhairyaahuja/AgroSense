@@ -1,0 +1,30 @@
+
+/**
+ * @fileoverview Firestore Security Rules for AgroSense.
+ *
+ * Core Philosophy:
+ * This ruleset is designed for an application where authentication is handled
+ * by a backend service (e.g., Cloud Functions) using API keys, not by
+ * end-user Firebase Authentication. Therefore, the default security posture
+ * is to DENY all direct client-side reads and writes. All data access must
+ * be brokered by the trusted backend service, which will have administrative
+ * privileges.
+ *
+ * This approach ensures that all access control logic, including API key
+ * validation, is centralized in the backend, providing a single point of
+ * security management and preventing unauthorized client access.
+ */
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny all access to all collections.
+    // Your backend service (e.g., Cloud Functions running with a service account)
+    // will bypass these rules.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
+    

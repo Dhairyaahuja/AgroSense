@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "leaf-healthy",
+      "description": "A healthy green leaf.",
+      "imageUrl": "https://images.unsplash.com/photo-1646496718349-f4e022bc8fcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGVhbHRoeSUyMGxlYWZ8ZW58MHx8fHwxNzYyMjAyNTE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy leaf"
+    },
+    {
+      "id": "leaf-disease-1",
+      "description": "A leaf showing signs of powdery mildew.",
+      "imageUrl": "https://images.unsplash.com/photo-1697690516008-91308610211c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkaXNlYXNlZCUyMGxlYWZ8ZW58MHx8fHwxNzYyMTg4NjQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "diseased leaf"
+    },
+    {
+      "id": "leaf-disease-2",
+      "description": "A leaf with yellow spots indicating a potential nutrient deficiency or disease.",
+      "imageUrl": "https://images.unsplash.com/photo-1760002661024-0502f998e8ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx5ZWxsb3clMjBzcG90c3xlbnwwfHx8fDE3NjIyNTU5NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yellow spots"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "Avatar for a farmer.",
+      "imageUrl": "https://images.unsplash.com/photo-1740477138822-906f6b845579?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIyMDA2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "farmer portrait"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "Avatar for an admin.",
+      "imageUrl": "https://images.unsplash.com/photo-1586344153246-973c5d0d1141?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBnbGFzc2VzfGVufDB8fHx8MTc2MjE1MTg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person glasses"
+    }
+  ]
+}

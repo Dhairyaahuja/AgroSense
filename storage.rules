@@ -1,0 +1,15 @@
+
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // By default, deny all reads and writes.
+    // Access should be granted granularly via backend services (e.g. Cloud Functions)
+    // using service accounts, which bypass these rules.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
+    
